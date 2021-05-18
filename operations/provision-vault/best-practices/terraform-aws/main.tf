@@ -1,4 +1,4 @@
-module "ssh_keypair_aws_override" { 
+module "ssh_keypair_aws_override" {
   source = "github.com/hashicorp-modules/ssh-keypair-aws"
 
   name = "${var.name}-override"
